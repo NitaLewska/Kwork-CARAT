@@ -21,11 +21,6 @@ html {
     src: url(fonts/LazurskiС.ttf);
 }
 
-body {
-    overflow-x: hidden;
-    width: 100vw;
-}
-
 header,
 section,
 footer {
