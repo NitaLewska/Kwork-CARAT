@@ -225,7 +225,10 @@ bottom:0;
     grid-column: 1/2;
     grid-row: 1/3;
     justify-self: left;
-    margin-bottom: -30px;
+    margin-top: 20px;
+    margin-left: -80px;
+    height: 780px;
+    width: auto;
 }
 
 #section_wireless h2{
@@ -241,6 +244,26 @@ bottom:0;
     background-size: cover;
 }
 
+#section_consigliere h2{
+    font-size:46px;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-top: 37px;
+}
+
+#section_consigliere span{
+    font-size:46px;
+    color: #465a64;
+    text-transform: uppercase;
+}
+
+#section_consigliere p{
+    font-size:16px;
+    text-transform: uppercase;
+    width: 337px;
+    padding-top: 40px;
+}
+
 #section_massage {
     background: url(img/section7_bgi.png);
     background-position: center;
@@ -253,6 +276,21 @@ bottom:0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+#section_voice h2 {
+    text-align: center;
+}
+
+#section_voice p {
+    text-align: center;
+}
+
+#section_voice img {
+    position: absolute;
+    bottom:-30px;
+    left: calc(50vw - 221px);
 }
 
 #section_design_eco {
@@ -260,6 +298,42 @@ bottom:0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#section_design_eco .wrapper {
+    position: relative;
+    height: 100%;
+}
+
+#section_design_eco h2{
+    font-size: 46px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-top: 75px;
+    text-align: center;
+}
+
+#section_design_eco p{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#section_design_eco h3{
+
+}
+
+#section_design_eco h3+p{
+
+}
+
+#design_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #section_ergonomic {
@@ -341,6 +415,10 @@ bottom:0;
         line-height: 15px;
     }
 
+    #section_wireless img {
+        height: 500px;
+    }
+
     #section_ergonomic h2 {
         font-size: 36px;
         padding-top: 30px;
@@ -373,6 +451,11 @@ bottom:0;
         height: 50px;
     }
     
+    #section_wireless img {
+        width: 50vw;
+        height: auto;
+        max-height: 500px;
+    } 
     #section_ergonomic h2 {
         font-size: 24px;
         letter-spacing: 8px;
