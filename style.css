@@ -1,7 +1,6 @@
 /* Box Model Fix */
 html {
     box-sizing: border-box;
-
 }
 
 *,
@@ -45,8 +44,6 @@ section {
     width: 1020px;
     margin: 0 auto;
 }
-
-
 
 header {
     background: url(img/title_screen_bgi.png);
@@ -117,6 +114,7 @@ header h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 #section_somsensystem .wrapper {
@@ -152,7 +150,6 @@ header h2 {
 
 #section_somsensystem h2+p span {
     color: #02a0f5;
-
 }
 
 #section_somsensystem p {
@@ -195,6 +192,10 @@ header h2 {
     align-self: center;
 }
 
+#section_somsensystem article:nth-of-type(2) b,#section_somsensystem article:nth-of-type(3) b {
+    font-size: 42px;
+}
+
 #section_somsensystem article:nth-of-type(3) {
     align-self: flex-start
 }
@@ -208,7 +209,7 @@ header h2 {
 }
 
 #section_somsensystem article p:last-of-type {
-    width: 230px;
+    width: 280px;
     font-size: 15px;
     text-align: left;
     position: relative;
@@ -505,7 +506,6 @@ header h2 {
         line-height: 40px;
         width: 250px;
         margin-top: 45px;
-
     }
 
     #header_fancy_text p:nth-of-type(1) {
@@ -556,8 +556,17 @@ header h2 {
     }
 
     #section_somsensystem article p:first-of-type {
-        width: 100px;
+        width: 90px;
         font-size: 40px;
+    }
+
+    #section_somsensystem article:nth-of-type(1) b{
+        font-size: 15px;
+    }
+
+
+    #section_somsensystem article:nth-of-type(2) b,#section_somsensystem article:nth-of-type(3) b {
+        font-size: 20px;
     }
 
     #section_zerog h2 {
@@ -650,11 +659,8 @@ header h2 {
 }
 
 
-
-
 @media (max-width: 600px) {
 
-    #section_zerog,
     #section_design_eco,
     #section_functions,
     #section_massage,
@@ -694,7 +700,7 @@ header h2 {
     }
 
     #section_somsensystem img {
-        height: 200px;
+        height: 170px;
         width: auto;
     }
 
@@ -712,6 +718,10 @@ header h2 {
     #section_somsensystem article p:first-of-type {
         width: 60px;
         font-size: 30px;
+    }
+
+    #section_somsensystem article:nth-of-type(2) b,#section_somsensystem article:nth-of-type(3) b {
+        font-size: 14px;
     }
 
     #section_zerog h2 {
