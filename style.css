@@ -1,7 +1,7 @@
 /* Box Model Fix */
 html {
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 
 *,
@@ -11,6 +11,10 @@ html {
     margin: 0px;
 }
 
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 
 @font-face {
     font-family: 'AllegrettoScriptTwo';
@@ -183,6 +187,10 @@ bottom:0;
     align-self:flex-end;
 }
 
+#section_somsensystem article:nth-of-type(1) b{
+    font-size: 23px;
+}
+
 #section_somsensystem article:nth-of-type(2){
     align-self:center;
 }
@@ -191,18 +199,27 @@ bottom:0;
     align-self:flex-start
 }
 
+#section_somsensystem article p{
+    color:#fff
+}
+
+#section_somsensystem article p span{
+    color:#02a0f5
+}
 
 #section_somsensystem article p:last-of-type {
     width: 230px;
     font-size: 15px;
     text-align: left;
     position: relative;
+    padding-left: 15px;
 }
 
 #section_somsensystem article p:first-of-type {
-    width: 157px;
+    width: 150px;
     font-size: 90px;
     text-align: center;
+    border-right: #fff 1px solid;
 }
 
 #section_zerog {
@@ -302,7 +319,21 @@ bottom:0;
 #section_wireless h2{
     font-size: 46px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: right;
+    font-weight: 200;
+    align-self:flex-end;
+    justify-self: right;
+    letter-spacing: 10px;
+}
+
+#section_wireless p{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: right;
+    align-self:flex-start;
+    justify-self: right;
+    max-width: 385px;
+    padding: 45px 10px;
 }
 
 #section_consigliere {
@@ -483,8 +514,117 @@ bottom:0;
         line-height: 15px;
     }
 
+    #section_somsensystem h2 {
+        letter-spacing: 10px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+        
+    #section_somsensystem h2+p {
+        font-size: 12px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    #section_somsensystem h2+p b{
+        color:#fff;
+        font-size: 14px;
+    }
+    
+    #som_grid{
+        margin-top: 20px;
+    }
+    
+    #section_somsensystem img {
+        height: 300px;
+        width: auto;
+    }
+    
+    #section_somsensystem p {
+        font-size: 12px
+    }
+    
+
+    #section_somsensystem article p:last-of-type {
+        width: 150px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    
+    #section_somsensystem article p:first-of-type {
+        width: 100px;
+        font-size: 40px;
+    }
+    
+    #section_zerog h2 {
+        font-size: 60px;
+        letter-spacing:30px;
+        padding-top: 30px;
+    }
+    
+    #section_zerog h2::after {
+        font-size: 30px;
+        letter-spacing:2px;
+        top: -40px;
+        left:-30px;
+    }
+    
+    #section_zerog h2+p {
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 200;
+        padding-top: 20px;
+    }
+    
+    #section_zerog article {
+        align-self:flex-end;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    
+    #section_zerog article p:first-of-type {
+        width: 230px;
+        font-size: 15px;
+        text-align: right;
+        padding-right: 15px;
+    }
+    
+    #section_zerog article p:last-of-type {
+        width: 80px;
+        border-left: #ffffff 1px solid;
+        font-size: 45px;
+        text-align: center;
+    }
+
     #section_wireless img {
-        height: 500px;
+        max-height: 500px;
+    }
+    
+    #section_wireless .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #section_wireless h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: 200;
+        align-self:flex-end;
+        justify-self: right;
+        letter-spacing: 10px;
+    }
+    
+    #section_wireless p{
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: right;
+        align-self:flex-start;
+        justify-self: right;
+        max-width: 385px;
+        padding: 45px 10px 0 0;
     }
 
     #section_ergonomic h2 {
@@ -518,12 +658,114 @@ bottom:0;
     #header_carat img {
         height: 50px;
     }
+
+    #section_somsensystem h2 {
+        letter-spacing: 7px;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+        
+    #section_somsensystem h2+p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+       
+    #section_somsensystem article:nth-of-type(1) b {
+        font-size: 14px;
+    }
+
+    #som_grid{
+        margin-top: 30px;
+    }
+    
+    #section_somsensystem img {
+        height: 200px;
+        width: auto;
+    }
+    
+    #section_somsensystem p {
+        font-size: 12px;
+        text-align:center
+    }
+    
+    #section_somsensystem article p:last-of-type {
+        width: 150px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    
+    #section_somsensystem article p:first-of-type {
+        width: 60px;
+        font-size: 30px;
+    }
+
+    #section_zerog h2 {
+        font-size: 40px;
+        letter-spacing:20px;
+        padding-top: 20px;
+    }
+    
+    #section_zerog h2::after {
+        font-size: 30px;
+        letter-spacing:2px;
+        top: -20px;
+        left:-20px;
+    }
+    
+    #section_zerog h2+p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    
+    #section_zerog article {
+        align-self:flex-end;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    
+    #section_zerog article p:first-of-type {
+        width: 230px;
+        font-size: 15px;
+        text-align: right;
+        padding-right: 15px;
+        text-shadow: #4e4e4e 0px 0px 5px;
+    }
+    
+    #section_zerog article p:last-of-type {
+        width: 80px;
+        border-left: #ffffff 1px solid;
+        font-size: 45px;
+        text-align: center;
+    }
     
     #section_wireless img {
         width: 50vw;
         height: auto;
         max-height: 500px;
     } 
+    
+    #section_consigliere h2{
+        font-size:30px;
+        text-transform: uppercase;
+        font-weight: 200;
+        padding-top: 37px;
+    }
+    
+    #section_consigliere span{
+        font-size:30px;
+        color: #465a64;
+        text-transform: uppercase;
+    }
+    
+    #section_consigliere p{
+        font-size:14px;
+        width: 337px;
+        padding-top: 40px;
+        text-shadow: #4e4e4e 0px 0px 5px;
+    }
+
     #section_ergonomic h2 {
         font-size: 24px;
         letter-spacing: 8px;
