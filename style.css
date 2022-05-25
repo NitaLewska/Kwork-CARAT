@@ -126,7 +126,7 @@ bottom:0;
     letter-spacing: 12px;
     font-size: 46px;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
     font-weight: 200;
 }
 
@@ -134,9 +134,76 @@ bottom:0;
     color: #02a0f5
 }
 
+#section_somsensystem h2+p {
+    color:#fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#section_somsensystem h2+p b{
+    color:#fff;
+    font-size: 30px;
+}
+
+#section_somsensystem h2+p span {
+    color: #02a0f5;
+    
+}
+
+#section_somsensystem p {
+    color: #02a0f5;
+    text-transform: uppercase;
+}
+
+#section_somsensystem p span {
+    color: #fff
+}
+
+#som_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items:center;
+    justify-content: center;
+}
+
+#section_somsensystem img {
+    grid-area:1/2/4/3;
+    mix-blend-mode: lighten;
+}
+
+#section_somsensystem article {
+    display: flex;
+    flex-direction: row;
+    align-items:center
+}
+
+#section_somsensystem article:nth-of-type(1){
+    align-self:flex-end;
+}
+
+#section_somsensystem article:nth-of-type(2){
+    align-self:center;
+}
+
+#section_somsensystem article:nth-of-type(3){
+    align-self:flex-start
+}
 
 
+#section_somsensystem article p:last-of-type {
+    width: 230px;
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+}
 
+#section_somsensystem article p:first-of-type {
+    width: 157px;
+    font-size: 90px;
+    text-align: center;
+}
 
 #section_zerog {
     background: url(img/section2_bgi.png);
