@@ -650,6 +650,14 @@ bottom:0;
 
 @media (max-width: 600px) {
 
+    #section_zerog, #section_design_eco, #section_functions, #section_massage, #section_stretching, #section_wireless {
+        display: none;
+    }
+
+
+
+
+
     #header_carat {
         max-width: 400px;
         height: 50px;
