@@ -475,6 +475,14 @@ header h2 {
         height: 500px;
     }
 
+    #section_design_eco,
+    #section_functions,
+    #section_massage,
+    #section_stretching,
+    #section_voice {
+        display: none;
+    }
+
     .wrapper {
         width: 90vw;
         max-width: 680px;
