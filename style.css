@@ -266,6 +266,14 @@ header h2 {
     margin-top: 40px;
 }
 
+#section_zerog article span{
+    color: #f9e69d;
+}
+
+#section_zerog article:first-of-type span{
+    font-size: 42px;
+}
+
 #section_zerog article p:first-of-type {
     width: 230px;
     font-size: 15px;
@@ -380,10 +388,18 @@ header h2 {
 
 #section_voice h2 {
     text-align: center;
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 200;
+    padding-top: 48px;
 }
 
 #section_voice p {
     text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 12px;
 }
 
 #section_voice img {
@@ -478,8 +494,7 @@ header h2 {
     #section_design_eco,
     #section_functions,
     #section_massage,
-    #section_stretching,
-    #section_voice {
+    #section_stretching {
         display: none;
     }
 
@@ -547,7 +562,6 @@ header h2 {
         font-size: 12px
     }
 
-
     #section_somsensystem article p:last-of-type {
         width: 150px;
         font-size: 10px;
@@ -562,7 +576,6 @@ header h2 {
     #section_somsensystem article:nth-of-type(1) b{
         font-size: 15px;
     }
-
 
     #section_somsensystem article:nth-of-type(2) b,#section_somsensystem article:nth-of-type(3) b {
         font-size: 20px;
@@ -594,6 +607,10 @@ header h2 {
         display: flex;
         flex-direction: row;
         margin-top: 40px;
+    }
+
+    #section_zerog article:first-of-type span{
+        font-size: 25px;
     }
 
     #section_zerog article p:first-of-type {
@@ -638,6 +655,24 @@ header h2 {
         max-width: 385px;
         padding: 45px 10px 0 0;
     }
+  
+    #section_voice h2 {
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 200;
+        padding-top: 40px;
+    }
+    
+    #section_voice p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    
+    #section_voice img {
+        height: 350px;
+        bottom: -30px;
+        left: calc(50vw - 175px);
+    }
 
     #section_ergonomic h2 {
         font-size: 36px;
@@ -664,8 +699,7 @@ header h2 {
     #section_functions,
     #section_massage,
     #section_stretching,
-    #section_wireless,
-    #section_voice {
+    #section_wireless{
         display: none;
     }
 
@@ -748,6 +782,10 @@ header h2 {
         margin-top: 40px;
     }
 
+    #section_zerog article:first-of-type span{
+        font-size: 25px;
+    }
+    
     #section_zerog article p:first-of-type {
         width: 230px;
         font-size: 15px;
@@ -787,6 +825,12 @@ header h2 {
         width: 337px;
         padding-top: 40px;
         text-shadow: #4e4e4e 0px 0px 5px;
+    }
+
+    #section_voice img {
+        height: 280px;
+        bottom: -20px;
+        left: calc(50vw - 140px);
     }
 
     #section_ergonomic h2 {
