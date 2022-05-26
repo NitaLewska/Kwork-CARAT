@@ -110,7 +110,7 @@ header h2 {
 }
 
 #section_somsensystem {
-    background: url(img/section1_bgi.png);
+    background: url(img/section1_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@ header h2 {
 }
 
 #section_zerog {
-    background: url(img/section2_bgi.png);
+    background: url(img/section2_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,14 +290,14 @@ header h2 {
 }
 
 #section_stretching {
-    background: url(img/section3_bgi.png);
+    background: url(img/section3_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section_functions {
-    background: url(img/section4_bgi.png);
+    background: url(img/section4_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -399,7 +399,7 @@ header h2 {
 
 
 #section_wireless {
-    background: url(img/section5_bgi.png);
+    background: url(img/section5_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -441,7 +441,7 @@ header h2 {
 }
 
 #section_consigliere {
-    background: url(img/section6_bgi.png);
+    background: url(img/section6_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,14 +468,14 @@ header h2 {
 }
 
 #section_massage {
-    background: url(img/section7_bgi.png);
+    background: url(img/section7_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section_voice {
-    background: url(img/section8_bgi.png);
+    background: url(img/section8_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -505,7 +505,7 @@ header h2 {
 }
 
 #section_design_eco {
-    background: url(img/section9_bgi.png);
+    background: url(img/section9_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,7 +544,7 @@ header h2 {
 }
 
 #section_ergonomic {
-    background: url(img/section10_bgi.png);
+    background: url(img/section10_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -843,7 +843,7 @@ header h2 {
 
     #section_design_eco,
     #section_massage,
-    #section_stretching{
+    #section_stretching {
         display: none;
     }
 
