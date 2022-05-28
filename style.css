@@ -82,7 +82,8 @@ header h2 {
     line-height: 50px;
     width: 420px;
     text-shadow: #feea63 0px 0px 30px, #feea68 0px 0px 30px;
-    margin-top: 45px;
+    margin-top: 50px;
+    margin-left: 12px;
 }
 
 #header_fancy_text p:nth-of-type(1) {
@@ -90,6 +91,7 @@ header h2 {
 }
 
 #header_fancy_text p:nth-of-type(2) {
+    margin-top: -10px;
     margin-left: 245px;
     line-height: 30px;
     font-size: 60px;
@@ -101,6 +103,7 @@ header h2 {
 
 #header_fancy_text p:nth-of-type(4) {
     align-self: left;
+    margin-left: 12px;
 }
 
 #garant {
@@ -124,40 +127,57 @@ header h2 {
 
 #section_somsensystem h2 {
     text-transform: uppercase;
-    letter-spacing: 12px;
-    font-size: 46px;
+    letter-spacing: 9.2px;
+    font-size: 47px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 62px;
+    padding-left: 20px;
     font-weight: 200;
 }
 
 #section_somsensystem h2 span {
-    color: #02a0f5
+    color: #02a0f5;
+    letter-spacing: 10px;
+    margin-right: 22px;
 }
 
 #section_somsensystem h2+p {
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-left: 45px;
+    margin-top: 6px;
+    word-spacing: 2px;
+    margin-bottom: 26px;
+    letter-spacing: 0.7px;
 }
 
 #section_somsensystem h2+p b {
     color: #fff;
     font-size: 30px;
+    letter-spacing: 0.5px;
 }
 
 #section_somsensystem h2+p span {
     color: #02a0f5;
+    letter-spacing: 0.6px;
+    font-size: 16px;
 }
 
 #section_somsensystem p {
     color: #02a0f5;
     text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 34px;
 }
 
 #section_somsensystem p span {
-    color: #fff
+    color: #fff;
+    font-size: 10px;
+}
+
+#section_somsensystem p span {
+    font-size: 16px;
 }
 
 #som_grid {
@@ -176,7 +196,8 @@ header h2 {
 #section_somsensystem article {
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
+    margin-left:-80px;
 }
 
 #section_somsensystem article:nth-of-type(1) {
@@ -213,7 +234,6 @@ header h2 {
     font-size: 15px;
     text-align: left;
     position: relative;
-    padding-left: 15px;
 }
 
 #section_somsensystem article p:first-of-type {
@@ -238,9 +258,10 @@ header h2 {
 #section_zerog h2 {
     font-size: 128px;
     text-align: center;
-    letter-spacing: 40px;
+    letter-spacing: 28px;
     font-weight: 200;
-    padding-top: 30px;
+    padding-top: 45px;
+    margin-left: 60px;
 }
 
 #section_zerog h2::after {
@@ -248,23 +269,25 @@ header h2 {
     content: 'X2';
     letter-spacing: 2px;
     position: relative;
-    top: -80px;
-    left: -30px;
+    top: -90px;
+    left: -25px;
 }
 
 #section_zerog h2+p {
     font-size: 16px;
+    letter-spacing: 0.7px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 200;
-    padding-top: 20px;
+    padding-top: 15px;
+    margin-bottom: 80px;
 }
 
 #section_zerog article {
     align-self: flex-end;
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 #section_zerog article span {
@@ -283,7 +306,7 @@ header h2 {
 }
 
 #section_zerog article p:last-of-type {
-    width: 157px;
+    width: 155px;
     border-left: #ffffff 1px solid;
     font-size: 90px;
     text-align: center;
@@ -317,7 +340,7 @@ header h2 {
     justify-content: space-between;
     width: 315px;
     height: 50px;
-    margin: 0px auto 0;
+    margin: 0px auto ;
 }
 
 #section_functions>.wrapper>p,
@@ -335,7 +358,7 @@ header h2 {
 }
 
 #section_functions article {
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -451,7 +474,8 @@ header h2 {
     font-size: 46px;
     text-transform: uppercase;
     font-weight: 200;
-    padding-top: 37px;
+    padding-top: 30px;
+    letter-spacing: 10px;
 }
 
 #section_consigliere span {
@@ -465,6 +489,8 @@ header h2 {
     text-transform: uppercase;
     width: 337px;
     padding-top: 40px;
+    letter-spacing: 0.6px;
+    line-height: 1.2;
 }
 
 #section_massage {
@@ -473,6 +499,120 @@ header h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#section_massage h2 {
+    text-transform: uppercase;
+    font-size: 46px;
+    letter-spacing: 12px;
+    font-weight: 200;
+    text-align: center;
+    padding: 30px;
+}
+
+#section_massage .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 865px;
+}
+
+
+#section_massage article:nth-of-type(1) {}
+
+#section_massage article:nth-of-type(2) {}
+
+#section_massage article:nth-of-type(3) {}
+
+#section_massage article:nth-of-type(4) {}
+
+#section_massage article:nth-of-type(5) {}
+
+#section_massage article:nth-of-type(6) {}
+
+#section_massage article:nth-of-type(7) {}
+
+#section_massage article:nth-of-type(8) {}
+
+#section_massage article:nth-of-type(9) {}
+
+#section_massage article:nth-of-type(10) {}
+
+#section_massage h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 200;
+    position: relative;
+}
+
+#section_massage h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    mix-blend-mode:color-dodge;
+    filter: brightness(1);
+}
+
+#section_massage article:nth-of-type(1) h3::after {
+    background-image: url(img/Shape\ 4.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(2) h3::after {
+    background-image: url(img/Shape\ 4\ copy.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(3) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 2.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(4) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 3.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(5) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 4.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(6) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 5.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(7) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 6.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(8) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 7.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(9) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 8.png);
+    height: 98px;
+    width: 368px;
+}
+
+#section_massage article:nth-of-type(10) h3::after {
+    background-image: url(img/Shape\ 4\ copy\ 9.png);
+    height: 98px;
+    width: 368px;
+}
+
 
 #section_voice {
     background: url(img/section8_bgi.jpg);
@@ -553,19 +693,19 @@ header h2 {
 
 #section_ergonomic h2 {
     text-transform: uppercase;
-    letter-spacing: 12px;
+    letter-spacing: 10px;
     font-size: 46px;
-    text-align: center;
-    padding-top: 40px;
+    padding-top: 25px;
     font-weight: 200;
 }
 
 #section_ergonomic p {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     font-weight: 200;
+    letter-spacing: 1.5px;
 }
 
 #section_ergonomic img {
