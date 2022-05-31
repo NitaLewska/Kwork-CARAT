@@ -1145,19 +1145,26 @@ header h2 {
 
 @media (max-width: 600px) {
 
-    #section_design_eco,
-    #section_massage,
-    #section_stretching {
-        display: none;
+    header {
+        height: 480px;
+        background-image: url(img/title_screen_bgi_mobile.png);
     }
 
     #header_carat {
-        max-width: 400px;
+        max-width: 280px;
         height: 50px;
+        margin: 17px auto 0;
     }
 
     #header_carat img {
-        height: 50px;
+        height: 45px;
+    }
+
+    header h2 {
+        margin-top: 20px;
+        margin-left: -5px;
+        letter-spacing: 6px;
+        font-size: 11px;
     }
 
     #section_somsensystem h2 {
@@ -1165,6 +1172,8 @@ header h2 {
         font-size: 25px;
         padding-top: 20px;
         padding-bottom: 10px;
+        max-width: 90vw;
+        word-wrap: normal;
     }
 
     #section_somsensystem h2+p {
@@ -1353,9 +1362,11 @@ header h2 {
     }
 
     #section_ergonomic h2 {
-        font-size: 24px;
-        letter-spacing: 8px;
+        font-size: 22px;
+        letter-spacing: 5px;
         padding-top: 20px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     #section_ergonomic p {
@@ -1379,5 +1390,13 @@ header h2 {
     #section_ergonomic img:nth-of-type(3) {
         display: block;
         position: relative;
+    }
+
+    #section_ergonomic img:nth-of-type(3) {
+        margin-top: 10px;
+    }
+
+    #section_ergonomic img:nth-of-type(3) {
+        margin-top: -30px;
     }
 }
