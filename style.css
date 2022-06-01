@@ -46,7 +46,7 @@ section {
 }
 
 header {
-    background: url(img/title_screen_bgi.png);
+    background: url(img/title_screen_bgi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -820,6 +820,7 @@ header h2 {
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #section_design_eco h3+p{
@@ -890,29 +891,28 @@ header h2 {
     header,
     section,
     footer {
-        height: 500px;
-    }
-
-    #section_design_eco,
-    #section_massage,
-    #section_stretching {
-        display: none;
+        height: 524px;
     }
 
     .wrapper {
         width: 90vw;
-        max-width: 680px;
+        max-width: 700px;
     }
 
     #header_carat {
-        max-width: 450px;
+        max-width: 485px;
         width: 90vw;
         height: 71.5px;
-        margin-top: 30px;
+        margin-top: 40px;
+    }
+
+    header h2 {
+        margin-top: 12px;
+        letter-spacing: 7.5px;
     }
 
     #header_carat img {
-        height: 71.5px;
+        height: 78px;
         width: auto;
     }
 
@@ -920,47 +920,75 @@ header h2 {
         font-size: 50px;
         line-height: 40px;
         width: 250px;
-        margin-top: 45px;
+        margin-top: 35px;
     }
 
     #header_fancy_text p:nth-of-type(1) {
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
     #header_fancy_text p:nth-of-type(2) {
         font-size: 40px;
-        margin-left: 170px;
+        margin-left: 165px;
         line-height: 15px;
     }
 
+    #header_fancy_text p:nth-of-type(3) {
+        align-self: unset;
+        margin-left: 85px;
+    }
+
+    #header_fancy_text p:nth-of-type(4) {
+        margin-top: -6px;
+    }
+
+    #garant {
+        height: auto;
+        width: 80px;
+        position: absolute;
+        right: 35px;
+        bottom: 0;
+    }
+
     #section_somsensystem h2 {
-        letter-spacing: 10px;
-        font-size: 30px;
+        letter-spacing: 6px;
+        font-size: 38px;
         padding-top: 20px;
+        padding-left: 0px;
     }
 
     #section_somsensystem h2+p {
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 20px;
         text-align: center;
+        max-width: 520px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
     }
 
     #section_somsensystem h2+p b {
         color: #fff;
-        font-size: 14px;
+        font-size: 30px;
     }
 
     #som_grid {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     #section_somsensystem img {
-        height: 300px;
+        height: 400px;
         width: auto;
+        padding-top: 15px;
     }
 
     #section_somsensystem p {
-        font-size: 12px
+        font-size: 12px;
+    }
+
+    #section_somsensystem p span {
+        color: #fff;
+        font-size: 12px;
     }
 
     #section_somsensystem article p:last-of-type {
@@ -970,8 +998,8 @@ header h2 {
     }
 
     #section_somsensystem article p:first-of-type {
-        width: 90px;
-        font-size: 40px;
+        width: 110px;
+        font-size: 70px;
     }
 
     #section_somsensystem article:nth-of-type(1) b {
@@ -984,31 +1012,28 @@ header h2 {
     }
 
     #section_zerog h2 {
-        font-size: 60px;
-        letter-spacing: 30px;
-        padding-top: 30px;
+        font-size: 85px;
+        letter-spacing: 24px;
+        padding-top: 35px;
     }
 
     #section_zerog h2::after {
         font-size: 30px;
         letter-spacing: 2px;
-        top: -40px;
+        top: -60px;
         left: -30px;
     }
 
     #section_zerog h2+p {
-        font-size: 16px;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 200;
-        padding-top: 20px;
+        padding-top: 0px;
+        margin-bottom: 20px;
     }
 
     #section_zerog article {
         align-self: flex-end;
         display: flex;
         flex-direction: row;
-        margin-top: 40px;
+        margin-top: 4px;
     }
 
     #section_zerog article:first-of-type span {
@@ -1025,8 +1050,84 @@ header h2 {
     #section_zerog article p:last-of-type {
         width: 80px;
         border-left: #ffffff 1px solid;
-        font-size: 45px;
+        font-size: 70px;
         text-align: center;
+    }
+
+    #section_stretching .wrapper>p {
+        margin-top: 40px;
+        font-size: 12px;
+        margin-bottom: 30px;
+        letter-spacing: 0.5px;
+        max-width: unset;
+    }
+
+    #section_stretching .wrapper>p br {
+        display: none;
+    }
+
+    #section_stretching article h3 {
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #section_stretching article p {
+        margin-top: 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #section_stretching article:nth-of-type(1) {
+        margin: 0px 0 0 0px
+    }
+
+    #section_stretching article:nth-of-type(2) {
+        margin: 0px 0 0 -50px
+    }
+
+    #section_stretching article:nth-of-type(3) {
+        margin: 0px 0 0 0px
+    }
+
+    #section_stretching article:nth-of-type(4) {
+        margin: 0px 0 0 -130px
+    }
+
+    #section_stretching article:nth-of-type(5) {
+        margin: 0px 0 0 -100px
+    }
+
+    #section_stretching img:nth-of-type(1) {
+        height: 150px;
+        margin-left: -60px;
+    }
+
+    #section_stretching img:nth-of-type(2) {
+        height: 140px;
+        width: max-content;
+        margin-left: -115px;
+        margin-right: -115px;
+        padding-left: 70px;
+    }
+
+    #section_stretching img:nth-of-type(3) {
+        height: 130px;
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+
+    #section_stretching img:nth-of-type(4) {
+        height: 120px;
+        margin-left: 0px;
+    }
+
+    #section_stretching img:nth-of-type(5) {
+        height: 120px;
+        margin-left: -90px;
+        margin-right: -90px;
+        padding-left: 50px;
     }
 
     #section_functions article img {
@@ -1080,7 +1181,8 @@ header h2 {
     }
 
     #section_wireless img {
-        max-height: 500px;
+        max-height: 520px;
+        margin-left: -45px;
     }
 
     #section_wireless .wrapper {
@@ -1089,58 +1191,251 @@ header h2 {
     }
 
     #section_wireless h2 {
-        font-size: 30px;
-        text-transform: uppercase;
-        text-align: right;
-        font-weight: 200;
-        align-self: flex-end;
-        justify-self: right;
-        letter-spacing: 10px;
+        font-size: 32px;
+        letter-spacing: 6px;
+        margin-left: -40px;
+        margin-top: 15px;
     }
 
     #section_wireless p {
-        font-size: 14px;
+        font-size: 13px;
         text-transform: uppercase;
         text-align: right;
         align-self: flex-start;
         justify-self: right;
-        max-width: 385px;
-        padding: 45px 10px 0 0;
+        max-width: 275px;
+        padding: 25px 0px 20px 0;
+        margin-right: 7px;
+    }
+    
+    #section_consigliere h2 {
+        font-size: 30px;
+        padding-top: 20px;
+        letter-spacing: 8px;
+    }
+    
+    #section_consigliere span {
+        font-size: 32px;
+    }
+    
+    #section_consigliere p {
+        font-size: 13px;
+        text-transform: uppercase;
+        width: 250px;
+        padding-top: 40px;
+        letter-spacing: 0.6px;
+        line-height: 1;
     }
 
     #section_voice h2 {
-        font-size: 20px;
+        font-size: 22px;
         letter-spacing: 5px;
         font-weight: 200;
-        padding-top: 40px;
+        padding-top: 25px;
     }
 
     #section_voice p {
-        font-size: 14px;
-        padding-top: 10px;
+        font-size: 12px;
+        padding-top: 5px;
     }
 
     #section_voice img {
-        height: 350px;
+        height: 320px;
         bottom: -30px;
-        left: calc(50vw - 175px);
+        left: calc(50vw - 225px);
     }
 
+    #section_massage h2 {
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 8px;
+        font-weight: 200;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #section_massage .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: calc(100% - 110px);
+        width: 850px;
+        margin: -8px auto 0;
+    }
+
+
+    #section_massage article:nth-of-type(1) {
+        width: 218px;
+    }
+
+    #section_massage article:nth-of-type(2) {
+        width: 233px;
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(3) {
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(4) {
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(5) {
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(6) {
+        margin-top: 0px;
+        text-align: right;
+        width: 239px;
+        align-self: flex-end;
+    }
+
+    #section_massage article:nth-of-type(7) {
+        text-align: right;
+        width: 190px;
+        align-self: flex-end;
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(8) {
+        text-align: right;
+        width: 270px;
+        align-self: flex-end;
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(9) {
+        text-align: right;
+        align-self: flex-end;
+        width: 230px;
+        margin-top: 0px;
+    }
+
+    #section_massage article:nth-of-type(10) {
+        text-align: right;
+        align-self: flex-end;
+        width: 239px;
+        margin-top: 0px;
+    }
+
+    #section_massage h3 {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 200;
+        position: relative;
+    }
+
+    #section_massage h3::after {
+        content: "";
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+
+    #section_massage p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    #section_massage article:nth-of-type(1) h3::after {
+        background-image: url(img/Shape\ 4.png);
+        background-repeat: none;
+        height: 98px;
+        width: 368px;
+        top: 35px;
+        left: 0;
+    }
+
+    #section_massage article:nth-of-type(2) h3::after {
+        background-image: url(img/Shape\ 4\ copy.png);
+        height: 18px;
+        width: 362px;
+        left: 0;
+    }
+
+    #section_massage article:nth-of-type(3) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 2.png);
+        height: 108px;
+        width: 318px;
+        top: -90px;
+        left: 0;
+    }
+
+    #section_massage article:nth-of-type(4) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 3.png);
+        height: 22px;
+        width: 364px;
+        left: 0;
+    }
+
+    #section_massage article:nth-of-type(5) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 4.png);
+        height: 68px;
+        width: 364px;
+        top: -50px;
+        left: 0;
+    }
+
+    #section_massage article:nth-of-type(6) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 5.png);
+        height: 81px;
+        width: 296px;
+        right: 0;
+        top: 18px;
+    }
+
+    #section_massage article:nth-of-type(7) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 9.png);
+        height: 20px;
+        width: 316px;
+        right: 0px;
+        top: 18px;
+    }
+
+    #section_massage article:nth-of-type(8) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 6.png);
+        height: 89px;
+        width: 395px;
+        right: 0px;
+        top: -52px;
+    }
+
+    #section_massage article:nth-of-type(9) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 7.png);
+        height: 118px;
+        width: 366px;
+        right: 0;
+        top: -100px;
+    }
+
+    #section_massage article:nth-of-type(10) h3::after {
+        background-image: url(img/Shape\ 4\ copy\ 8.png);
+        height: 20px;
+        width: 358px;
+        right: 0;
+        top: 20px;
+    }
+
+    
+
     #section_ergonomic h2 {
-        font-size: 36px;
-        padding-top: 30px;
+        font-size: 30px;
+        padding-top: 25px;
+        margin-left: 0;
+        letter-spacing: 8px;
     }
 
     #section_ergonomic p {
-        font-size: 14px;
-        padding-top: 20px;
+        font-size: 13px;
+        padding-top: 12px;
     }
 
     #section_ergonomic img {
         width: 100%;
         position: absolute;
         left: 0;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 
