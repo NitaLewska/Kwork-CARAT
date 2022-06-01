@@ -823,7 +823,7 @@ header h2 {
     margin-bottom: 10px;
 }
 
-#section_design_eco h3+p{
+#section_design_eco h3+p {
     margin-bottom: 70px;
 }
 
@@ -992,9 +992,10 @@ header h2 {
     }
 
     #section_somsensystem article p:last-of-type {
-        width: 200px;
-        font-size: 10px;
-        padding-left: 15px;
+        width: 220px;
+        font-size: 12px;
+        padding-left: 0px;
+        align-self: center;
     }
 
     #section_somsensystem article p:first-of-type {
@@ -1008,8 +1009,27 @@ header h2 {
 
     #section_somsensystem article:nth-of-type(2) b,
     #section_somsensystem article:nth-of-type(3) b {
-        font-size: 20px;
+        font-size: 35px;
     }
+
+    #section_somsensystem article p:first-of-type::after {
+        content: "";
+        height: 50px;
+        width: 1px;
+        background-color: #8e9399;
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+
+    #section_zerog .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 10px;
+    }
+
 
     #section_zerog h2 {
         font-size: 85px;
@@ -1026,32 +1046,43 @@ header h2 {
 
     #section_zerog h2+p {
         padding-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 70px;
     }
 
     #section_zerog article {
         align-self: flex-end;
         display: flex;
         flex-direction: row;
-        margin-top: 4px;
+        margin-right: 10px;
     }
 
     #section_zerog article:first-of-type span {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     #section_zerog article p:first-of-type {
-        width: 230px;
-        font-size: 15px;
+        width: 180px;
+        font-size: 12px;
         text-align: right;
         padding-right: 15px;
+        align-self: center
     }
 
     #section_zerog article p:last-of-type {
         width: 80px;
-        border-left: #ffffff 1px solid;
         font-size: 70px;
         text-align: center;
+    }
+
+    #section_zerog article p:last-of-type::after {
+        content: "";
+        height: 50px;
+        width: 1px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: 15px;
+
     }
 
     #section_stretching .wrapper>p {
@@ -1134,10 +1165,27 @@ header h2 {
         width: 90px;
     }
 
+    #section_functions .wrapper {
+        padding: 10px 0 10px 0;
+    }
+
+    #functions_carat {
+        width: 280px;
+        height: 40px;
+    }
+
     #section_functions>.wrapper>p,
     #functions_carat+p {
-        font-size: 20px;
-        letter-spacing: 7px;
+        font-size: 24px;
+        letter-spacing: 6px;
+    }
+
+    #functions_carat+p {
+        padding-bottom: 20px;
+    }
+
+    #section_functions article img {
+        width: 120px;
     }
 
     #section_functions article:nth-of-type(4) {
@@ -1153,31 +1201,57 @@ header h2 {
     }
 
     #section_functions article:first-of-type p::before {
-        font-size: 30px;
+        font-size: 34px;
         padding-right: 5px;
     }
 
     #section_functions article:nth-of-type(2) p::before {
-        font-size: 30px;
+        font-size: 34px;
         padding-right: 5px;
     }
 
     #section_functions article:nth-of-type(3) p::before {
-        font-size: 30px;
+        font-size: 34px;
         padding-right: 5px;
     }
 
     #section_functions article h3 {
-        font-size: 16px;
-    }
-
-    #section_functions article h3 br {
-        display: none;
+        font-size: 20px;
     }
 
     #section_functions article h3+p {
-        font-size: 11px;
+        font-size: 12px;
         padding-top: 5px;
+    }
+
+    #section_functions article:nth-of-type(4) h3+p {
+        text-indent: -9999px;
+        line-height: 0;
+        /* Collapse the original line */
+    }
+
+    #section_functions article:nth-of-type(4) h3+p::after {
+        content: "доступны опции для изменения положения массажа, режима массажа";
+        text-indent: 0;
+        max-width: 200px;
+        display: block;
+        line-height: initial;
+        /* New content takes up original line height */
+    }
+
+    #section_functions article:nth-of-type(5) h3+p {
+        text-indent: -9999px;
+        line-height: 0;
+        /* Collapse the original line */
+    }
+
+    #section_functions article:nth-of-type(5) h3+p::after {
+        content: "Оснащен функцией прогревания: области спины и ног";
+        text-indent: 0;
+        max-width: 200px;
+        display: block;
+        line-height: initial;
+        /* New content takes up original line height */
     }
 
     #section_wireless img {
@@ -1207,17 +1281,17 @@ header h2 {
         padding: 25px 0px 20px 0;
         margin-right: 7px;
     }
-    
+
     #section_consigliere h2 {
         font-size: 30px;
         padding-top: 20px;
         letter-spacing: 8px;
     }
-    
+
     #section_consigliere span {
         font-size: 32px;
     }
-    
+
     #section_consigliere p {
         font-size: 13px;
         text-transform: uppercase;
@@ -1261,11 +1335,12 @@ header h2 {
         height: calc(100% - 110px);
         width: 850px;
         margin: -8px auto 0;
+        justify-content: space-between;
     }
 
 
     #section_massage article:nth-of-type(1) {
-        width: 218px;
+        width: 240px;
     }
 
     #section_massage article:nth-of-type(2) {
@@ -1301,7 +1376,7 @@ header h2 {
 
     #section_massage article:nth-of-type(8) {
         text-align: right;
-        width: 270px;
+        width: 210px;
         align-self: flex-end;
         margin-top: 0px;
     }
@@ -1334,45 +1409,42 @@ header h2 {
     }
 
     #section_massage p {
-        font-size: 13px;
-        margin-top: 10px;
+        font-size: 12px;
+        margin-top: 5px;
     }
 
     #section_massage article:nth-of-type(1) h3::after {
         background-image: url(img/Shape\ 4.png);
-        background-repeat: none;
         height: 98px;
-        width: 368px;
-        top: 35px;
-        left: 0;
+        width: calc(368px * 0.9);
+        top: 30px;
     }
 
     #section_massage article:nth-of-type(2) h3::after {
         background-image: url(img/Shape\ 4\ copy.png);
         height: 18px;
-        width: 362px;
-        left: 0;
+        width: calc(362px * 0.9);
     }
 
     #section_massage article:nth-of-type(3) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 2.png);
         height: 108px;
-        width: 318px;
+        width: calc(318px * 0.9);
         top: -90px;
-        left: 0;
     }
 
     #section_massage article:nth-of-type(4) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 3.png);
         height: 22px;
-        width: 364px;
+        width: calc(364px * 0.9);
         left: 0;
+        top: -5px;
     }
 
     #section_massage article:nth-of-type(5) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 4.png);
         height: 68px;
-        width: 364px;
+        width: calc(364px * 0.9);
         top: -50px;
         left: 0;
     }
@@ -1380,31 +1452,31 @@ header h2 {
     #section_massage article:nth-of-type(6) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 5.png);
         height: 81px;
-        width: 296px;
+        width: calc(296px * 0.9);
         right: 0;
-        top: 18px;
+        top: 15px;
     }
 
     #section_massage article:nth-of-type(7) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 9.png);
         height: 20px;
-        width: 316px;
+        width: calc(316px * 0.9);
         right: 0px;
-        top: 18px;
+        top: 15px;
     }
 
     #section_massage article:nth-of-type(8) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 6.png);
         height: 89px;
-        width: 395px;
+        width: calc(395px * 0.9);
         right: 0px;
-        top: -52px;
+        top: -60px;
     }
 
     #section_massage article:nth-of-type(9) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 7.png);
         height: 118px;
-        width: 366px;
+        width: calc(366px * 0.9);
         right: 0;
         top: -100px;
     }
@@ -1412,12 +1484,83 @@ header h2 {
     #section_massage article:nth-of-type(10) h3::after {
         background-image: url(img/Shape\ 4\ copy\ 8.png);
         height: 20px;
-        width: 358px;
+        width: calc(358px * 0.9);
         right: 0;
-        top: 20px;
+        top: 15px;
     }
 
-    
+    #section_design_eco .wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    #section_design_eco h2 {
+        font-size: 30px;
+        padding-top: 45px;
+        letter-spacing: 7.5px;
+    }
+
+    #section_design_eco p {
+        font-size: 12px;
+        padding-top: 8px;
+        letter-spacing: 1.7px;
+        max-width: 98%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #section_design_eco p br {
+        display: none;
+    }
+
+    #section_design_eco h3 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    #section_design_eco h3+p {
+        margin-bottom: 10px;
+    }
+
+    #section_design_eco img.okuyama {
+        margin-left: 10px;
+        height: 360px;
+        align-self: flex-end
+    }
+
+    #design_grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        align-items: center;
+    }
+
+    #design_grid article:first-of-type img {
+        width: 90%;
+
+    }
+
+    #design_grid article:last-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin-top: 0px;
+        width: 150px;
+    }
+
+    #design_grid article:last-of-type h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #design_grid article:last-of-type img {
+        height: 90px;
+
+    }
 
     #section_ergonomic h2 {
         font-size: 30px;
@@ -1440,7 +1583,19 @@ header h2 {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
+
+    #section_somsensystem,
+    #section_zerog,
+    #section_functions,
+    #section_stretching,
+    #section_wireless,
+    #section_massage,
+    #section_design_eco,
+    #section_voice,
+    #section_consigliere {
+        display: none;
+    }
 
     header {
         height: 480px;
