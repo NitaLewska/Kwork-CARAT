@@ -172,10 +172,6 @@ header h2 {
 
 #section_somsensystem p span {
     color: #fff;
-    font-size: 10px;
-}
-
-#section_somsensystem p span {
     font-size: 16px;
 }
 
@@ -243,7 +239,7 @@ header h2 {
 }
 
 #section_somsensystem article p:first-of-type::after {
-    content:"";
+    content: "";
     height: 75px;
     width: 2px;
     background-color: #8e9399;
@@ -323,7 +319,7 @@ header h2 {
 }
 
 #section_zerog article p:last-of-type::after {
-    content:"";
+    content: "";
     height: 75px;
     width: 2px;
     background-color: #fff;
@@ -548,7 +544,7 @@ header h2 {
     align-self: flex-start;
     justify-self: right;
     max-width: 385px;
-    padding: 45px 10px;
+    padding: 45px 5px;
 }
 
 #section_consigliere {
@@ -826,7 +822,13 @@ header h2 {
     text-align: center;
 }
 
-#section_design_eco h3+p {}
+#section_design_eco h3+p{
+    margin-bottom: 70px;
+}
+
+#section_design_eco img.okuyama {
+    margin-left: 70px;
+}
 
 #design_grid {
     display: grid;
@@ -834,15 +836,15 @@ header h2 {
     position: absolute;
     bottom: 0;
     left: 0;
-    align-items:center;
+    align-items: center;
 }
 
-#design_grid article:last-of-type{
+#design_grid article:last-of-type {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 20px;
-    padding-left: 20px;
+    margin-top: -50px;
 }
 
 
