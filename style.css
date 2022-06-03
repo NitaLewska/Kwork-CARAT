@@ -1684,10 +1684,12 @@ header h2 {
 
     #section_somsensystem h2+p {
         margin-bottom: 40px;
+
     }
 
     #section_somsensystem p {
         text-align: center;
+        padding: 0 10px;
     }
 
     #section_somsensystem article p:last-of-type {
@@ -1865,6 +1867,7 @@ header h2 {
         align-items: center;
         align-content: center;
         margin-top: 30px;
+        gap: 5px;
     }
 
     #section_wireless {
