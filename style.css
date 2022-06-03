@@ -1707,6 +1707,9 @@ header h2 {
         background-position: top center;
     }
 
+    #section_zerog h2::after {
+        display: none;
+    }
 
     #section_zerog article:nth-of-type(1) {
         margin-top: auto;
@@ -1773,6 +1776,7 @@ header h2 {
         align-items: center;
         align-content: center;
         gap: 30px;
+        padding-bottom: 30px;
     }
 
     #section_stretching .wrapper>p {
@@ -1800,26 +1804,31 @@ header h2 {
     }
 
     #section_stretching img:nth-of-type(1) {
+        height: unset;
         margin: 0;
         padding: 0;
     }
 
     #section_stretching img:nth-of-type(2) {
+        height: unset;
         margin: 0;
         padding: 0;
     }
 
     #section_stretching img:nth-of-type(3) {
+        height: unset;
         margin: 0;
         padding: 0;
     }
 
     #section_stretching img:nth-of-type(4) {
+        height: unset;
         margin: 0;
         padding: 0;
     }
 
     #section_stretching img:nth-of-type(5) {
+        height: unset;
         margin: 0;
         padding: 0;
     }
@@ -2064,6 +2073,7 @@ header h2 {
         grid-row: 2/3;
         position: relative;
         left: 40px;
+        padding-right: 20px;
     }
     
     #section_design_eco img.okuyama {
