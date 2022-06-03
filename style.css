@@ -1712,6 +1712,10 @@ header h2 {
         margin-top: auto;
     }
 
+    #section_zerog article{
+        padding-top: 20px;
+    }
+
     #section_zerog h2 {
         font-size: 50px;
         letter-spacing: 10px;
