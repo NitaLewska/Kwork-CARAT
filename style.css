@@ -1589,6 +1589,10 @@ header h2 {
 
 @media (max-width: 760px) {
 
+    html {
+        overflow-x: hidden;
+      }
+
     #section_massage,
     #section_design_eco {
         display: none;
@@ -1598,6 +1602,7 @@ header h2 {
     section,
     footer {
         height: auto;
+        max-width: 100%;
     }
 
     .wrapper {
