@@ -1591,7 +1591,7 @@ header h2 {
 
     html {
         overflow-x: hidden;
-      }
+    }
 
     #section_massage,
     #section_design_eco {
@@ -1631,7 +1631,7 @@ header h2 {
         font-size: 11px;
     }
 
-    #section_somsensystem{
+    #section_somsensystem {
         height: auto;
     }
 
@@ -1643,15 +1643,17 @@ header h2 {
         gap: 30px;
     }
 
-    #section_somsensystem article:nth-of-type(1){
-        align-self:center;
+    #section_somsensystem article:nth-of-type(1) {
+        align-self: center;
         margin-top: 60px;
     }
-    #section_somsensystem article:nth-of-type(2){
-        align-self:center;
+
+    #section_somsensystem article:nth-of-type(2) {
+        align-self: center;
     }
-    #section_somsensystem article:nth-of-type(3){
-        align-self:center;
+
+    #section_somsensystem article:nth-of-type(3) {
+        align-self: center;
     }
 
     #section_somsensystem h2 {
@@ -1667,11 +1669,11 @@ header h2 {
 
     #section_somsensystem h2+p {
         margin-bottom: 40px;
-    } 
+    }
 
     #section_somsensystem p {
         text-align: center;
-    }   
+    }
 
     #section_somsensystem article p:last-of-type {
         width: 180px;
@@ -1732,10 +1734,10 @@ header h2 {
         height: auto;
     }
 
-    #section_stretching .wrapper{
+    #section_stretching .wrapper {
         flex-direction: column;
-        align-items:center;
-        align-content:center;
+        align-items: center;
+        align-content: center;
         gap: 30px;
     }
 
@@ -1746,43 +1748,43 @@ header h2 {
     #section_stretching article:nth-of-type(1) {
         margin: 0
     }
-    
+
     #section_stretching article:nth-of-type(2) {
         margin: 0
     }
-    
+
     #section_stretching article:nth-of-type(3) {
         margin: 0
     }
-    
+
     #section_stretching article:nth-of-type(4) {
         margin: 0
     }
-    
+
     #section_stretching article:nth-of-type(5) {
         margin: 0
     }
-    
+
     #section_stretching img:nth-of-type(1) {
         margin: 0;
         padding: 0;
     }
-    
+
     #section_stretching img:nth-of-type(2) {
         margin: 0;
         padding: 0;
     }
-    
+
     #section_stretching img:nth-of-type(3) {
         margin: 0;
         padding: 0;
     }
-    
+
     #section_stretching img:nth-of-type(4) {
         margin: 0;
         padding: 0;
     }
-    
+
     #section_stretching img:nth-of-type(5) {
         margin: 0;
         padding: 0;
@@ -1800,31 +1802,31 @@ header h2 {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        align-items:center; 
+        align-items: center;
         align-content: center;
     }
 
-    #functions_carat{
+    #functions_carat {
         width: 280px;
         height: 40px;
         margin: 15px auto;
-    }   
+    }
 
-    #functions_carat img{
+    #functions_carat img {
         width: auto;
         height: 40px;
-    } 
+    }
 
-    #section_functions article{
+    #section_functions article {
         width: auto;
-        align-items:center; 
+        align-items: center;
         align-content: center;
         margin-top: 30px;
     }
 
-    #section_wireless{
+    #section_wireless {
         height: 700px;
-        
+
     }
 
     #section_wireless img {
@@ -1854,13 +1856,13 @@ header h2 {
         width: 80%;
     }
 
-    #section_consigliere{
+    #section_consigliere {
         height: 700px;
         padding-left: 30px;
         background: url(img/section6_bgi_small.png);
-        background-repeat:no-repeat;
+        background-repeat: no-repeat;
         background-position: center 70%;
-        background-size:cover
+        background-size: cover
     }
 
     #section_consigliere h2 {
@@ -1883,15 +1885,16 @@ header h2 {
         text-shadow: #4e4e4e 0px 0px 5px;
     }
 
-    #section_voice{
+    #section_voice {
         height: 700px;
         background: url(img/section8_bgi_small.png);
-        background-position:center;
+        background-position: center;
     }
 
     #section_voice img:nth-of-type(1) {
         display: none;
     }
+
     #section_voice img:nth-of-type(2) {
         display: block;
         width: 300px;
